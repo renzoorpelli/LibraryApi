@@ -1,0 +1,7 @@
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Host\obj\Debug\net6.0\LibraryApi.Host.csproj.AssemblyReference.cache
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Host\obj\Debug\net6.0\LibraryApi.Host.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Host\obj\Debug\net6.0\LibraryApi.Host.AssemblyInfoInputs.cache
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Host\obj\Debug\net6.0\LibraryApi.Host.AssemblyInfo.cs
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Host\obj\Debug\net6.0\LibraryApi.Host.csproj.CoreCompileInputs.cache
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Host\obj\Debug\net6.0\LibraryApi.Host.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Host\obj\Debug\net6.0\LibraryApi.Host.MvcApplicationPartsAssemblyInfo.cache

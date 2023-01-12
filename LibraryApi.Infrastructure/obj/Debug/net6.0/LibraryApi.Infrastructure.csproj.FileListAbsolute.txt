@@ -1,0 +1,17 @@
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Infrastructure\bin\Debug\net6.0\LibraryApi.Infrastructure.deps.json
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Infrastructure\bin\Debug\net6.0\LibraryApi.Infrastructure.runtimeconfig.json
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Infrastructure\bin\Debug\net6.0\LibraryApi.Infrastructure.dll
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Infrastructure\bin\Debug\net6.0\LibraryApi.Infrastructure.pdb
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Infrastructure\bin\Debug\net6.0\LibraryApi.Domain.dll
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Infrastructure\bin\Debug\net6.0\LibraryApi.Domain.pdb
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Infrastructure\obj\Debug\net6.0\LibraryApi.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Infrastructure\obj\Debug\net6.0\LibraryApi.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Infrastructure\obj\Debug\net6.0\LibraryApi.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Infrastructure\obj\Debug\net6.0\LibraryApi.Infrastructure.AssemblyInfo.cs
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Infrastructure\obj\Debug\net6.0\LibraryApi.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Infrastructure\obj\Debug\net6.0\LibraryApi.Infrastructure.csproj.CopyComplete
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Infrastructure\obj\Debug\net6.0\LibraryApi.Infrastructure.dll
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Infrastructure\obj\Debug\net6.0\refint\LibraryApi.Infrastructure.dll
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Infrastructure\obj\Debug\net6.0\LibraryApi.Infrastructure.pdb
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Infrastructure\obj\Debug\net6.0\LibraryApi.Infrastructure.genruntimeconfig.cache
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Infrastructure\obj\Debug\net6.0\ref\LibraryApi.Infrastructure.dll

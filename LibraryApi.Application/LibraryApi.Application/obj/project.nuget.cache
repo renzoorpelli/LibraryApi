@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "PyldTGJlOK5kcqAlIJhIilVKoDofT8ySKLuzlpOXR3HIsgXvlqh5Sk6c/Qm1Bc89dYFTO2DSUK0CxqNLLq+utA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Application\\LibraryApi.Application\\LibraryApi.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Renzo\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\Renzo\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

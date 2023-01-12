@@ -1,0 +1,10 @@
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Domain\bin\Debug\netstandard2.1\LibraryApi.Domain.deps.json
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Domain\bin\Debug\netstandard2.1\LibraryApi.Domain.dll
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Domain\bin\Debug\netstandard2.1\LibraryApi.Domain.pdb
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Domain\obj\Debug\netstandard2.1\LibraryApi.Domain.csproj.AssemblyReference.cache
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Domain\obj\Debug\netstandard2.1\LibraryApi.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Domain\obj\Debug\netstandard2.1\LibraryApi.Domain.AssemblyInfoInputs.cache
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Domain\obj\Debug\netstandard2.1\LibraryApi.Domain.AssemblyInfo.cs
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Domain\obj\Debug\netstandard2.1\LibraryApi.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Domain\obj\Debug\netstandard2.1\LibraryApi.Domain.dll
+C:\Users\Renzo\Documents\develop\asp.net\RestFull\LibraryApi.Domain\obj\Debug\netstandard2.1\LibraryApi.Domain.pdb
