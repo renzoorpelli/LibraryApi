@@ -1,3 +1,6 @@
+using Carter;
+using LibraryApi.Host.Configuration;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -5,9 +8,12 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-
+builder.Services.AddInfrastructureLayer(builder.Configuration)
+    .AddApplicationLayer()
+    .AddPresentationLayer();
 
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
@@ -15,6 +21,9 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+
+// Map Carter() buscará todos las implementancioens de la interfaz ICarterModule
+app.MapCarter();
 
 app.UseHttpsRedirection();
 

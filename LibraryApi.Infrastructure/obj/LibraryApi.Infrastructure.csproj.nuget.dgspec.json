@@ -124,6 +124,10 @@
             "Oracle.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.21.8, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[3.21.80, )"
             }
           },
           "imports": [

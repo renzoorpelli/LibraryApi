@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="Repositories\" />
+    <Folder Include="Persistence\Repositories\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -21,6 +21,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
     <PackageReference Include="Oracle.EntityFrameworkCore" Version="7.21.8" />
+    <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="3.21.80" />
   </ItemGroup>
 
   <ItemGroup>

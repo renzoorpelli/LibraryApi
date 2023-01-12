@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "bMbl2WY2zOAR+T+LIkn4+k0dT0HBbGgxzZc/FW71qUcYs6zDALooMQcSd2c/y+2r9sj9ZIsqtfSEo6FfS3oIMw==",
+  "dgSpecHash": "VjeZCrMMBfBGVktztQFsSbBSMNHuN/iNwRCRC1UxMBvIggmcJ4I6CeP5h7kM5vwEZr03lLo7/zneYRN+sAL36A==",
   "success": true,
   "projectFilePath": "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Host\\LibraryApi.Host.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Renzo\\.nuget\\packages\\carter\\6.1.1\\carter.6.1.1.nupkg.sha512",
+    "C:\\Users\\Renzo\\.nuget\\packages\\dapper\\2.0.123\\dapper.2.0.123.nupkg.sha512",
     "C:\\Users\\Renzo\\.nuget\\packages\\fluentvalidation\\11.4.0\\fluentvalidation.11.4.0.nupkg.sha512",
     "C:\\Users\\Renzo\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
+    "C:\\Users\\Renzo\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\Renzo\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\Renzo\\.nuget\\packages\\mediatr.extensions.microsoft.dependencyinjection\\11.0.0\\mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
     "C:\\Users\\Renzo\\.nuget\\packages\\microsoft.entityframeworkcore\\7.0.2\\microsoft.entityframeworkcore.7.0.2.nupkg.sha512",
     "C:\\Users\\Renzo\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\7.0.2\\microsoft.entityframeworkcore.abstractions.7.0.2.nupkg.sha512",
     "C:\\Users\\Renzo\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\7.0.2\\microsoft.entityframeworkcore.analyzers.7.0.2.nupkg.sha512",

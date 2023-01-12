@@ -4,6 +4,75 @@
     "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Host\\LibraryApi.Host.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Application\\LibraryApi.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Application\\LibraryApi.Application.csproj",
+        "projectName": "LibraryApi.Application",
+        "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Application\\LibraryApi.Application.csproj",
+        "packagesPath": "C:\\Users\\Renzo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Renzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
     "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Domain\\LibraryApi.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -89,8 +158,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Application\\LibraryApi.Application.csproj": {
+                "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Application\\LibraryApi.Application.csproj"
+              },
               "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj": {
                 "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj"
+              },
+              "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Presentation\\LibraryApi.Presentation.csproj": {
+                "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Presentation\\LibraryApi.Presentation.csproj"
               }
             }
           }
@@ -112,6 +187,14 @@
             "FluentValidation": {
               "target": "Package",
               "version": "[11.4.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -220,6 +303,83 @@
             "Oracle.EntityFrameworkCore": {
               "target": "Package",
               "version": "[7.21.8, )"
+            },
+            "Oracle.ManagedDataAccess.Core": {
+              "target": "Package",
+              "version": "[3.21.80, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Presentation\\LibraryApi.Presentation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Presentation\\LibraryApi.Presentation.csproj",
+        "projectName": "LibraryApi.Presentation",
+        "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Presentation\\LibraryApi.Presentation.csproj",
+        "packagesPath": "C:\\Users\\Renzo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Presentation\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Renzo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Application\\LibraryApi.Application.csproj": {
+                "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Application\\LibraryApi.Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Carter": {
+              "target": "Package",
+              "version": "[6.1.1, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.4.0, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[11.1.0, )"
             }
           },
           "imports": [

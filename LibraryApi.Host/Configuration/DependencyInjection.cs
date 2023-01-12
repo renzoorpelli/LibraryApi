@@ -1,5 +1,8 @@
-﻿using LibraryApi.Infrastructure;
+﻿using LibraryApi.Infrastructure.Persistence;
 using Microsoft.EntityFrameworkCore;
+using MediatR;
+using Carter;
+
 namespace LibraryApi.Host.Configuration
 {
     /// <summary>
@@ -14,13 +17,41 @@ namespace LibraryApi.Host.Configuration
         /// <param name="services">coleccion de servicios</param>
         /// <param name="configuration">configuracion de la aplicacion</param>
         /// <returns></returns>
-        public static IServiceCollection AddInfrastructure(this IServiceCollection services, IConfiguration configuration)
+        public static IServiceCollection AddInfrastructureLayer(this IServiceCollection services, IConfiguration configuration)
         {
             string connectionString = configuration.GetConnectionString("OracleDB")!;
 
             services.AddDbContext<ApplicationDbContext>(options => {
                 options.UseOracle(connectionString);
             });
+            return services;
+        }
+
+        /// <summary>
+        /// metodo de extension encargado de agregar la capa de Application
+        /// </summary>
+        /// <param name="services"></param>
+        /// <returns></returns>
+        public static IServiceCollection AddApplicationLayer(this IServiceCollection services)
+        {
+            // agrego el connection factory
+            services.AddScoped<IOracleConnectionFactory, OracleConnectionFactory>();
+
+            //obtengo referencia al ensamblado de la capa Application
+            var applicationAssembly = LibraryApi.Application.AssemblyReference.GetAssembly;
+
+            services.AddMediatR(applicationAssembly);
+
+            return services;
+        }
+        /// <summary>
+        /// metodo encargado de agregar el servicio de Carter, el cual su implementacion se encuentra en la capa Presentation
+        /// </summary>
+        /// <param name="services"></param>
+        /// <returns></returns>
+        public static IServiceCollection AddPresentationLayer(this IServiceCollection services)
+        {
+            services.AddCarter();
             return services;
         }
     }

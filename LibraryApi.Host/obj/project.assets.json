@@ -23,6 +23,19 @@
           "Microsoft.AspNetCore.App"
         ]
       },
+      "Dapper/2.0.123": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net5.0/Dapper.dll": {
+            "related": ".xml"
+          }
+        }
+      },
       "FluentValidation/11.4.0": {
         "type": "package",
         "compile": {
@@ -47,6 +60,48 @@
           "lib/net6.0/Humanizer.dll": {
             "related": ".xml"
           }
+        }
+      },
+      "MediatR/11.1.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR.Contracts": "1.0.1"
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MediatR.Contracts/1.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/MediatR.Contracts.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "MediatR.Extensions.Microsoft.DependencyInjection/11.0.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "11.0.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
         }
       },
       "Microsoft.EntityFrameworkCore/7.0.2": {
@@ -843,6 +898,21 @@
           }
         }
       },
+      "LibraryApi.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Dapper": "2.0.123",
+          "LibraryApi.Infrastructure": "1.0.0",
+          "MediatR": "11.1.0"
+        },
+        "compile": {
+          "bin/placeholder/LibraryApi.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryApi.Application.dll": {}
+        }
+      },
       "LibraryApi.Domain/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
@@ -862,13 +932,30 @@
         "dependencies": {
           "LibraryApi.Domain": "1.0.0",
           "Microsoft.EntityFrameworkCore": "7.0.2",
-          "Oracle.EntityFrameworkCore": "7.21.8"
+          "Oracle.EntityFrameworkCore": "7.21.8",
+          "Oracle.ManagedDataAccess.Core": "3.21.80"
         },
         "compile": {
           "bin/placeholder/LibraryApi.Infrastructure.dll": {}
         },
         "runtime": {
           "bin/placeholder/LibraryApi.Infrastructure.dll": {}
+        }
+      },
+      "LibraryApi.Presentation/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Carter": "6.1.1",
+          "FluentValidation": "11.4.0",
+          "LibraryApi.Application": "1.0.0",
+          "MediatR": "11.1.0"
+        },
+        "compile": {
+          "bin/placeholder/LibraryApi.Presentation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/LibraryApi.Presentation.dll": {}
         }
       }
     }
@@ -886,6 +973,24 @@
         "carterlogo.png",
         "lib/net6.0/Carter.dll",
         "lib/net6.0/Carter.pdb"
+      ]
+    },
+    "Dapper/2.0.123": {
+      "sha512": "RDFF4rBLLmbpi6pwkY7q/M6UXHRJEOerplDGE5jwEkP/JGJnBauAClYavNKJPW1yOTWRPIyfj4is3EaJxQXILQ==",
+      "type": "package",
+      "path": "dapper/2.0.123",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Dapper.png",
+        "dapper.2.0.123.nupkg.sha512",
+        "dapper.nuspec",
+        "lib/net461/Dapper.dll",
+        "lib/net461/Dapper.xml",
+        "lib/net5.0/Dapper.dll",
+        "lib/net5.0/Dapper.xml",
+        "lib/netstandard2.0/Dapper.dll",
+        "lib/netstandard2.0/Dapper.xml"
       ]
     },
     "FluentValidation/11.4.0": {
@@ -927,6 +1032,49 @@
         "lib/netstandard2.0/Humanizer.dll",
         "lib/netstandard2.0/Humanizer.xml",
         "logo.png"
+      ]
+    },
+    "MediatR/11.1.0": {
+      "sha512": "YIbtrLOyeCuIv8vIuHL/mMdls5xmgS36pIOJDxKZuu55nxA2MI2Z+E/Uk0z+F/LE11AGmpjplOM0NZ91m5LQBA==",
+      "type": "package",
+      "path": "mediatr/11.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.1/MediatR.dll",
+        "lib/netstandard2.1/MediatR.xml",
+        "mediatr.11.1.0.nupkg.sha512",
+        "mediatr.nuspec"
+      ]
+    },
+    "MediatR.Contracts/1.0.1": {
+      "sha512": "NsRvOxthhkYml4DcBMyJsmym8C4MchioH7wxKVPEg7plFj9Euh/i4IcmZ3Gvgx6+K8obeuhPeJdoBl56wnuo3A==",
+      "type": "package",
+      "path": "mediatr.contracts/1.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/net461/MediatR.Contracts.dll",
+        "lib/net461/MediatR.Contracts.xml",
+        "lib/netstandard2.0/MediatR.Contracts.dll",
+        "lib/netstandard2.0/MediatR.Contracts.xml",
+        "mediatr.contracts.1.0.1.nupkg.sha512",
+        "mediatr.contracts.nuspec"
+      ]
+    },
+    "MediatR.Extensions.Microsoft.DependencyInjection/11.0.0": {
+      "sha512": "jfD2NBYvP+HiUil2DWfM4bn+bCLp4H2xvoc9aorcnn2Jpgz7Ey8RyYMpgqeF3bs6CP6t8pzb6WkF5NFF/1RLHA==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/11.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
       ]
     },
     "Microsoft.EntityFrameworkCore/7.0.2": {
@@ -2101,6 +2249,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "LibraryApi.Application/1.0.0": {
+      "type": "project",
+      "path": "../LibraryApi.Application/LibraryApi.Application.csproj",
+      "msbuildProject": "../LibraryApi.Application/LibraryApi.Application.csproj"
+    },
     "LibraryApi.Domain/1.0.0": {
       "type": "project",
       "path": "../LibraryApi.Domain/LibraryApi.Domain.csproj",
@@ -2110,13 +2263,22 @@
       "type": "project",
       "path": "../LibraryApi.Infrastructure/LibraryApi.Infrastructure.csproj",
       "msbuildProject": "../LibraryApi.Infrastructure/LibraryApi.Infrastructure.csproj"
+    },
+    "LibraryApi.Presentation/1.0.0": {
+      "type": "project",
+      "path": "../LibraryApi.Presentation/LibraryApi.Presentation.csproj",
+      "msbuildProject": "../LibraryApi.Presentation/LibraryApi.Presentation.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "Carter >= 6.1.1",
       "FluentValidation >= 11.4.0",
+      "LibraryApi.Application >= 1.0.0",
       "LibraryApi.Infrastructure >= 1.0.0",
+      "LibraryApi.Presentation >= 1.0.0",
+      "MediatR >= 11.1.0",
+      "MediatR.Extensions.Microsoft.DependencyInjection >= 11.0.0",
       "Microsoft.EntityFrameworkCore >= 7.0.2",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 7.0.2",
@@ -2151,8 +2313,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Application\\LibraryApi.Application.csproj": {
+              "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Application\\LibraryApi.Application.csproj"
+            },
             "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Infrastructure\\LibraryApi.Infrastructure.csproj"
+            },
+            "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Presentation\\LibraryApi.Presentation.csproj": {
+              "projectPath": "C:\\Users\\Renzo\\Documents\\develop\\asp.net\\RestFull\\LibraryApi.Presentation\\LibraryApi.Presentation.csproj"
             }
           }
         }
@@ -2174,6 +2342,14 @@
           "FluentValidation": {
             "target": "Package",
             "version": "[11.4.0, )"
+          },
+          "MediatR": {
+            "target": "Package",
+            "version": "[11.1.0, )"
+          },
+          "MediatR.Extensions.Microsoft.DependencyInjection": {
+            "target": "Package",
+            "version": "[11.0.0, )"
           },
           "Microsoft.EntityFrameworkCore": {
             "target": "Package",

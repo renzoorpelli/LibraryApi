@@ -12,7 +12,8 @@
           "Microsoft.EntityFrameworkCore": "7.0.2",
           "Microsoft.EntityFrameworkCore.Design": "7.0.2",
           "Microsoft.EntityFrameworkCore.Tools": "7.0.2",
-          "Oracle.EntityFrameworkCore": "7.21.8"
+          "Oracle.EntityFrameworkCore": "7.21.8",
+          "Oracle.ManagedDataAccess.Core": "3.21.80"
         },
         "runtime": {
           "LibraryApi.Infrastructure.dll": {}

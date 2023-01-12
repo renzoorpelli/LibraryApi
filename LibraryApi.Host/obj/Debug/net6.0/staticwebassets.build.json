@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "EWYhcajo0MP72Sd2VrRbPniKVexkKeXzhjtetBMGghM=",
+  "Source": "LibraryApi.Host",
+  "BasePath": "_content/LibraryApi.Host",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
